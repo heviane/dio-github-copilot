@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit card validation</title>
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <script type="module" defer src="./CreditCardValidation-form.js"></script>
+</head>
+<body>
+    <div class="content"></div>
+        <header>
+            <h1>Credit card validation</h1>
+        </header>
+
+        <main>
+            <div>
+                <div id="menu-container"></div>
+                <script src="./loadMenu.js" defer></script>
+
+                <!-- <nav>
+                    <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./CreditCardValidation-form.html">Credit card validation</a></li>
+                    <li><a href="https://heviane.github.io/blog/" target="_blank">Blog</a></li>
+                    <li><a href="https://github.com/heviane/dio-github-copilot" target="_blank">github</a></li>
+                    </ul>
+                </nav> 
+                -->
+                
+            </div>
+            <div>
+            <section>
+                <h1>Credit Card Validation</h1>
+                <form id="cardForm">
+                    <label for="cardNumber">Número do Cartão:</label>
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="Digite o número do cartão" required>
+                    <button type="submit">Verificar Bandeira</button>
+                </form>
+                <p id="result">O resultado será exibido aqui.</p>
+            </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
