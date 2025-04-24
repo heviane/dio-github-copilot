@@ -20,10 +20,14 @@ Antes de começar, certifique-se de que você tem os seguintes softwares instala
 3. Execute o seguinte comando para clonar o repositório:
 
    ```bash
-   git clone https://github.com/<seu-usuario>/<nome-do-repositorio>.git
+   git clone https://github.com/heviane/dio-github-copilot.git
    ```
 
-    ubstitua `<seu-usuario>` e `<nome-do-repositorio>` pelo nome do repositório no GitHub.
+   ou
+
+    ```bash
+   git clone git@github.com:heviane/dio-github-copilot.git
+   ```
 
 4. Entre no diretório do projeto:
 
@@ -92,26 +96,6 @@ Antes de começar, certifique-se de que você tem os seguintes softwares instala
 
 ---
 
-## **Estrutura do Projeto**
-
-Abaixo está a estrutura básica do projeto:
-
-   ```plaintext
-   <nome-do-repositorio>/
-   ├── public/
-   │   ├── index.html          # Página principal do projeto
-   │   ├── formCreditCardBrand.js # Script para manipular o formulário
-   ├── src/
-   │   ├── scripts/
-   │   │   ├── utils.js        # Função para validação de bandeiras de cartão
-   │   ├── __tests__/
-   │   │   ├── utils.test.js   # Testes unitários para a função utils.js
-   ├── package.json            # Configuração do projeto e dependências
-   ├── babel.config.js         # Configuração do Babel para suporte a ES6
-   ```
-
----
-
 ## **Passo 5: Personalizar o Projeto**
 
 - Edite os arquivos em `src/scripts` para adicionar ou modificar funcionalidades.
@@ -121,7 +105,7 @@ Abaixo está a estrutura básica do projeto:
 
 ## **Dúvidas ou Problemas**
 
-Se você encontrar algum problema, abra uma [issue](https://github.com/<seu-usuario>/<nome-do-repositorio>/issues) no repositório do GitHub.
+Se você encontrar algum problema, abra uma [issue](https://github.com/heviane/dio-github-copilot/issues) no repositório do GitHub.
 
 ---
 
